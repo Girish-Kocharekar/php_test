@@ -1,0 +1,60 @@
+<?php
+// index.php - Minimal Landing Page for Hackathon Demo
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CO–PO Management System</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <style>
+    body {
+      background: #f8f9fa;
+    }
+    .navbar {
+      margin-bottom: 40px;
+    }
+    .hero {
+      text-align: center;
+      margin-top: 100px;
+    }
+    .hero h1 {
+      font-size: 2.5rem;
+      font-weight: bold;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      color: #555;
+    }
+    .btn-custom {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.php">CO–PO System</a>
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="add_course.php">Courses</a></li>
+          <li class="nav-item"><a class="nav-link" href="map_copo.php">CO–PO Mapping</a></li>
+          <li class="nav-item"><a class="nav-link" href="report.php">Reports</a></li>
+          <li class="nav-item"><a class="nav-link" href="teacher_assessments.php">Manage Student Assessments</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <div class="container hero">
+    <h1>Welcome to CO–PO Management System</h1>
+    <p>Simplify CO–PO mapping and automate PO attainment reporting.</p>
+    <a href="add_course.php" class="btn btn-primary btn-lg btn-custom">Get Started</a>
+  </div>
+
+</body>
+</html>
